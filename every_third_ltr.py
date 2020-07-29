@@ -8,7 +8,7 @@ Note: To see expected behavior you can test against a current working example wi
 curl -X POST https://lyft-interview-test.glitch.me/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 """
 
-def make_every_third_ltr(string_dict):
+def make_every_third_str(string_dict):
     """make a new string from every third letter
 
         >>> make_every_third_ltr({"string_to_cut": "iamyourlyftdriver"})
