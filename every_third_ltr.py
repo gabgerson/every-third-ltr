@@ -11,7 +11,7 @@ curl -X POST https://lyft-interview-test.glitch.me/test --data '{"string_to_cut"
 def make_every_third_str(string_dict):
     """make a new string from every third letter
 
-        >>> make_every_third_ltr({"string_to_cut": "iamyourlyftdriver"})
+        >>> make_every_third_str({"string_to_cut": "iamyourlyftdriver"})
         {'return_string': 'muydv'}
 
     """
