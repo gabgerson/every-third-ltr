@@ -56,7 +56,7 @@ __Run the following command:__
 ```
 $ curl -X POST http://0.0.0.0:5000/test  --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 ```
-The following shold be returned {"return_string": "muydv"}. The string can be changed in the json object '{"string_to_cut": "YourStringHere"}'
+The following should be returned {"return_string": "muydv"}. The string can be changed in the json object '{"string_to_cut": "YourStringHere"}'
 
 ## About the developer
 
