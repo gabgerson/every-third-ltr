@@ -21,7 +21,7 @@ def make_every_third_str(string_dict):
 
     #loop though string indexes using range and len
     #this assumes that the key will always be "string_to_cut"
-    for i in range(len(string_dict["string_to_cut"])-1):
+    for i in range(len(string_dict["string_to_cut"])):
         #if an index + 1 is divisible by 3 with no remainder then it is a multiple of 3 
         #so the letter at that index can be added to the "return_string"
         if (i + 1) % 3 == 0:
